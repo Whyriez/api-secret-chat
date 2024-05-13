@@ -1,4 +1,5 @@
 import { Sequelize } from "sequelize";
+import pg from "pg";
 // const db = new Sequelize("secret", "root", "", {
 //   host: "localhost",
 //   dialect: "mysql",
