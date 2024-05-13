@@ -44,7 +44,11 @@ app.get("/", (req, res) => {
 app.use(
   cors({
     credentials: true,
-    origin: ["http://localhost:3000", "https://secret-chat.limapp.my.id"],
+    origin: [
+      "http://localhost:3000",
+      "https://secret-chat.limapp.my.id",
+      "https://secret-chats.rf.gd",
+    ],
   })
 );
 app.use(express.json());
